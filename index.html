@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="refresh" content="8,url=https://www.google.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url(1081421.jpg);
+        height: 1080px;
+      }
+
+      .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        border-radius: 0px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 4px;
+        left: 10px;
+        text-align: center;
+        padding: 23px 0px;
+        cursor: pointer;
+      }
+      .left img {
+        width: 81px;
+      }
+      .mid {
+        width: 60%;
+        margin: 20px auto;
+        display: block;
+        border: 2px solid rgb(39 72 39);
+        color: white;
+        text-align: center;
+        padding: 0px 0px;
+        line-height: 40px;
+      }
+      .right {
+        position: absolute;
+        /* border: 2px solid red; */
+        top: 49px;
+        right: 0px;
+        margin: 0px 13px;
+        padding: 0px 0px;
+        display: inline-block;
+        color: white;
+        /* border: 2px  red; */
+      }
+      .navbar li {
+        display: inline-block;
+        padding: 3px 53px;
+        top: 2px;
+        font-size: 25px;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: white;
+      }
+      .navbar li a:hover {
+        color: rgb(175, 207, 150);
+      }
+      .navbar li a:active,
+      .navbar li a:hover {
+        text-decoration: underline;
+      }
+      .right button {
+        color: rgb(248, 244, 244);
+        background-color: red;
+
+        /* border-radius: 7px; */
+        border: 1px solid white;
+        border-radius: 5px;
+        /* border-color: red; */
+        padding: 1px 13px;
+      }
+      .right button:hover,
+      .right select:hover {
+        background-color: rgb(137, 39, 39);
+      }
+      .right select {
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        padding: 1px 2px;
+      }
+      .boom {
+        margin: 2px 20px;
+        padding: -14px 0px;
+      }
+      .left div {
+        font-size: larger;
+        color: rgb(253, 253, 253);
+      }
+      .container {
+        color: white;
+        /* background-color: aliceblue; */
+        border: 2px solid white;
+        margin: 469px 73px;
+        padding: 76px 61px;
+        width: 33%;
+        border-radius: 35px;
+        align-items: center;
+      }
+      .form-group input {
+        align-items: center;
+        display: block;
+        width: 33%;
+        border-radius: 200px;
+        margin-left: 10px auto;
+        text-align: center;
+        padding: 3px 123px;
+      }
+      .but {
+        border: 1px solid white;
+        margin: 0px 2px;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+
+        padding: 4px 78px;
+      }
+
+      .but:hover,
+      .reset:hover {
+        background-color: rgb(137, 39, 39);
+      }
+      .form-group input {
+        border-radius: 5px;
+      }
+      .reset {
+        width: 33px;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 4px 4px;
+        color: white;
+        background-color: black;
+        padding: 4px 100px;
+      }
+      .btnn {
+        border-radius: 1px solid white;
+      }
+      /* { */
+
+      /* .container .form-group{ */
+      /* align-items: center; */
+      /* } */
+      /* 
+      margin: 25px 56px;
+    padding: 0px 0px;
+    width: 530px;
+} */
+    </style>
+  </head>
+  <body>
+    <header
+      class="header"
+      style="background-color: rgb(39 72 39); padding: 0px 0px"
+    >
+      <div class="left">
+        <img src="pngegg.png" alt="logo" />
+
+        <div style="line-height: 19px">TALES OF SHINOBI</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li>
+            <a href="https://www.google.com" class="active" target="_blank"
+              >Home
+            </a>
+          </li>
+          <li><a href="#">Episodes </a></li>
+
+          <li><a href="#">Store </a></li>
+          <li><a href="#"> contact </a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="boom">
+          <select name="All Seasons" id="seasson">
+            <option value="">season 1</option>
+            <option value="">season 2</option>
+            <option value="">season 3</option>
+          </select>
+
+          <button class="btnn" id="btnnn" value="">sign up</button>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Fill the form to get notifications</h1>
+      <form action="nothing.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Email" />
+        </div>
+        <div class="form-group">
+          <input type="number" name="" placeholder="Phone number" />
+        </div>
+        <div class="form-group">
+          <input type="password" name="" placeholder="Create password" />
+        </div>
+        <button class="but">Sign in</button>
+        <button class="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
